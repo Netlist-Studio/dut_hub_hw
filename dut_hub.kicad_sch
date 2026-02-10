@@ -1,0 +1,1882 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "abb98903-800a-4d73-b1c4-29507c00e956")
+	(paper "A4")
+	(lib_symbols
+		(symbol "dut_hub:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dut_hub:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "USB: 5 Virtual Serial Ports (1 Control + 4 DUT)"
+		(exclude_from_sim no)
+		(at 74.93 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "25ee5cfd-0faf-4cc1-b4d0-bdaa95066b07")
+	)
+	(text_box "PC"
+		(exclude_from_sim no)
+		(at 20.32 55.88 0)
+		(size 29.21 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2c26ebca-affc-4b34-899c-2c68baa3aa66")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012b1c27-077b-4753-8bbc-942c4796fa74")
+	)
+	(wire
+		(pts
+			(xy 162.56 119.38) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a16075-859c-4cc7-b3df-62161efefec6")
+	)
+	(wire
+		(pts
+			(xy 123.19 29.21) (xy 137.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a70d30-5463-4a4f-92ef-31b499e589ab")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067ac14a-7550-4172-b0ca-7db3e72aa5d7")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda986e-d2ec-4c7e-b2ff-ac312cc76cef")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138cb814-d165-4078-b885-402f6a0730c2")
+	)
+	(wire
+		(pts
+			(xy 123.19 26.67) (xy 137.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d8f147-8f7a-46f8-a818-6f714e54d1c8")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168a4241-660e-4f02-a98c-1ee64dd378ef")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd44059-072f-4078-926c-177fc51e7a61")
+	)
+	(wire
+		(pts
+			(xy 168.91 73.66) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c098ed-0313-44c4-9185-c8aae3a34579")
+	)
+	(polyline
+		(pts
+			(xy 49.53 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39919356-526b-4c04-870b-f56ef50de518")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a16d90d-a79b-4b3b-9b33-9927dcec6c93")
+	)
+	(wire
+		(pts
+			(xy 123.19 113.03) (xy 137.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ea4ebb-4ba9-4f75-99d1-9200c86cbac5")
+	)
+	(wire
+		(pts
+			(xy 123.19 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536ccb4b-06cb-4d82-a1f1-6731346c2bed")
+	)
+	(wire
+		(pts
+			(xy 172.72 53.34) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592be147-c38a-4640-ada9-db9b9ed24cc9")
+	)
+	(wire
+		(pts
+			(xy 176.53 34.29) (xy 158.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1ac85a-8dab-4204-8c68-6050fb670400")
+	)
+	(wire
+		(pts
+			(xy 123.19 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f14c7e7-6243-4331-8a0a-f5026d6b4b4c")
+	)
+	(wire
+		(pts
+			(xy 123.19 45.72) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baccdfc-8162-4357-b850-90098de80b57")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8b899d-9591-4ed8-8f0e-7b1c48801405")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e685f0f-adb4-4550-b49a-0dbdf75685d2")
+	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a082775-1eb8-4a70-8a33-113fba83fb3d")
+	)
+	(wire
+		(pts
+			(xy 123.19 132.08) (xy 137.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd591eb-0a2a-44dd-95c1-8af33d028cfb")
+	)
+	(wire
+		(pts
+			(xy 176.53 119.38) (xy 176.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8981ed00-4c5a-4e43-b945-a32a2520e979")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.8) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c8f44f-0952-43e0-8942-af252679fe03")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb30ced6-3a0f-42b8-babc-c188ef7a94ba")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8823e32-f052-4e42-b9ce-93f78b3195ec")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d7416d-33c0-4712-9231-e0d1bfd0b113")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ada5c1-80ad-475c-a106-bc04966d127f")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fd2fbf-d6b6-41b2-ab74-0748416c7a9d")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40340b2-758a-41ee-a7e4-9ac33b7cae8b")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbfdf9c-aa42-4503-b424-fe8083d14019")
+	)
+	(wire
+		(pts
+			(xy 123.19 116.84) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde3875c-3c01-4576-8b4f-135fda512a12")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c1f594-5fcf-4bec-a994-777dd8a00958")
+	)
+	(wire
+		(pts
+			(xy 123.19 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd97da3-4427-4e4c-aa5e-166ed7df91b2")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec55fc1d-007c-4ba0-ba12-050940a40f4a")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2e6d33-f1ce-4b3a-b29f-b81a88315aef")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe521aa4-43d3-49aa-a6d7-66b1cd1fd85d")
+	)
+	(symbol
+		(lib_id "dut_hub:Fiducial")
+		(at 241.3 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28008ff9-d810-4447-bacd-9b4b279b7532")
+		(property "Reference" "FID2"
+			(at 243.84 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 241.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:MountingHole")
+		(at 226.06 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34503c12-f238-47a3-9551-332e67a708e0")
+		(property "Reference" "H1"
+			(at 228.6 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:MountingHole")
+		(at 246.38 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d945749-178d-414a-9d59-16b660cfe55f")
+		(property "Reference" "H4"
+			(at 248.92 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 248.92 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:Fiducial")
+		(at 226.06 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db2da5e-885e-4f3a-bf13-d65038d2688b")
+		(property "Reference" "FID1"
+			(at 228.6 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 228.6 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:Fiducial")
+		(at 256.54 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5cd14e-8cf2-421e-a381-5d14714a27f3")
+		(property "Reference" "FID3"
+			(at 259.08 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 259.08 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:MountingHole")
+		(at 246.38 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "890b7fa7-57ee-4b84-94d9-a8e2ff36ae3e")
+		(property "Reference" "H3"
+			(at 248.92 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 248.92 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dut_hub:MountingHole")
+		(at 226.06 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94140e60-ec02-4af5-bcc8-b943bac40d60")
+		(property "Reference" "H2"
+			(at 228.6 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 24.13)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11050f12-07b4-4031-b723-16bc36c38ff6")
+		(property "Sheetname" "DUT1"
+			(at 137.16 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut.kicad_sch"
+			(at 137.16 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DUT_UART_RX" input
+			(at 137.16 26.67 180)
+			(uuid "c2ca6726-a7d9-4019-86fd-d820ddd5ae93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_BOOT" input
+			(at 137.16 34.29 180)
+			(uuid "28bbeb15-b65e-4576-9706-f8788e4f396a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_MCU_RESET" input
+			(at 137.16 31.75 180)
+			(uuid "64b93ca4-f991-4f8a-9818-2690d8edca0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_UART_TX" output
+			(at 137.16 29.21 180)
+			(uuid "d5fa8fec-7b7a-4ae1-968e-36aa22a6bdd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDUT" input
+			(at 158.75 34.29 0)
+			(uuid "c1ec5a83-bf6e-417b-8822-ad44bfc991da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 129.54)
+		(size 21.59 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44e568f4-fd79-4cda-b7a2-4e711abbf811")
+		(property "Sheetname" "JTAG MUX"
+			(at 137.16 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag_mux.kicad_sch"
+			(at 137.16 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JTAG_MUX_1{slash}2" input
+			(at 137.16 132.08 180)
+			(uuid "67e424ef-9abe-4c08-8f0a-b04533725320")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_MUX_3{slash}4" input
+			(at 137.16 134.62 180)
+			(uuid "5224dc60-61ca-46b4-b323-beb88a92c6fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 102.87)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d7f003c-796f-4674-96b6-af27a1b5d191")
+		(property "Sheetname" "Power"
+			(at 137.16 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 137.16 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 137.16 116.84 180)
+			(uuid "00e1be19-2048-409b-8e17-983e6a6214f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 137.16 119.38 180)
+			(uuid "759f4586-1968-434b-a3a3-72dc1b32fd43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT3_PWR_EN" input
+			(at 137.16 110.49 180)
+			(uuid "158dc5b8-8b19-4e59-9868-39e434fe03d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT4_PWR_EN" input
+			(at 137.16 113.03 180)
+			(uuid "dda170ef-e1fd-4832-afd6-200692f513b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT2_PWR_EN" input
+			(at 137.16 107.95 180)
+			(uuid "41bae676-d54e-454c-8a81-5c5f8f8b1692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT1_PWR_EN" input
+			(at 137.16 105.41 180)
+			(uuid "daa1501c-8c1a-44c7-bc5b-5e739a0ab4ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDUT2-" output
+			(at 162.56 116.84 0)
+			(uuid "4ecfcf6b-9986-4142-b443-5a2d5e629763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDUT3-" output
+			(at 162.56 114.3 0)
+			(uuid "af3f8560-b9ba-4a7f-92e1-37a5f7347e58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDUT4-" output
+			(at 162.56 111.76 0)
+			(uuid "2dcc7459-84ce-41bc-a663-410fb6ad8c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDUT1-" output
+			(at 162.56 119.38 0)
+			(uuid "4e5d0b88-d980-4b37-a869-843d638b7828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 24.13)
+		(size 22.86 128.27)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "945e8700-a655-43cc-ba25-8adfbcccd675")
+		(property "Sheetname" "Raspberry Pico"
+			(at 100.33 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "raspberry_pico.kicad_sch"
+			(at 100.33 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 123.19 116.84 0)
+			(uuid "433d8222-655a-4182-bca8-c05dbdf6e303")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 123.19 119.38 0)
+			(uuid "847432de-c194-4d84-bece-edc63b72f748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT1_RESET" output
+			(at 123.19 31.75 0)
+			(uuid "029c3a0a-31e2-4361-8580-4310f584051e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT1_UART_RX" input
+			(at 123.19 29.21 0)
+			(uuid "32f75e45-c941-483a-bd27-7051e8f2e714")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT1_UART_TX" output
+			(at 123.19 26.67 0)
+			(uuid "7ef8f815-500c-45fc-9d97-5bbe73ab8cd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT2_PWR_EN" output
+			(at 123.19 107.95 0)
+			(uuid "b170a195-006d-4980-9e83-175a79a84fee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT4_UART_RX" input
+			(at 123.19 88.9 0)
+			(uuid "f3171878-aaca-40f8-9467-3438fb1bdaa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT4_RESET" output
+			(at 123.19 91.44 0)
+			(uuid "27bf5abf-3ae3-45d7-b765-d07bea6ed4d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT4_UART_TX" output
+			(at 123.19 86.36 0)
+			(uuid "8eb0171d-b027-48e5-b99d-f01ee7aa1e32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT4_PWR_EN" output
+			(at 123.19 113.03 0)
+			(uuid "cc8c2d1d-4a8c-4ef9-a4bd-0ace3539db8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT2_RESET" output
+			(at 123.19 50.8 0)
+			(uuid "24e9e316-e515-4a34-925a-ed8a1dc9ab07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT2_UART_RX" input
+			(at 123.19 48.26 0)
+			(uuid "3bdd3c8d-377d-4666-870d-4798c50cc7e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT2_UART_TX" output
+			(at 123.19 45.72 0)
+			(uuid "b4105649-dbda-4f59-9a64-f33635250523")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT3_UART_TX" output
+			(at 123.19 66.04 0)
+			(uuid "51628e4f-4eab-4e6f-bd15-d8611310b33f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT3_UART_RX" input
+			(at 123.19 68.58 0)
+			(uuid "d7e9e955-b022-429e-b895-8ab4d13259dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT3_PWR_EN" output
+			(at 123.19 110.49 0)
+			(uuid "7f1bfb1f-fa5f-42ff-9835-6452fb282347")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT3_RESET" output
+			(at 123.19 71.12 0)
+			(uuid "48114b5f-f0d6-4d33-ba28-bd797f523190")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_MUX_1{slash}2" output
+			(at 123.19 132.08 0)
+			(uuid "0bbdb29f-e467-49e4-9d3b-6648cc725592")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_MUX_3{slash}4" input
+			(at 123.19 134.62 0)
+			(uuid "890f45bf-f7ce-40bd-854d-663e5c0c4a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT1_PWR_EN" output
+			(at 123.19 105.41 0)
+			(uuid "b9496c12-4ab5-4092-ae38-8339ddea5bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT1_BOOT" output
+			(at 123.19 34.29 0)
+			(uuid "b43d105d-bd80-4044-a854-41c128368400")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT2_BOOT" output
+			(at 123.19 53.34 0)
+			(uuid "b6af8fbc-1e6e-4f61-8c4d-e693ba457201")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT3_BOOT" output
+			(at 123.19 73.66 0)
+			(uuid "28fee0dd-c386-4379-935b-59448a42aa9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DUT4_BOOT" output
+			(at 123.19 93.98 0)
+			(uuid "4cb65f31-4ad7-4d36-b0dc-14d76a359d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 63.5)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9857c38-ce1a-4783-aea9-cf5dcb4922b4")
+		(property "Sheetname" "DUT3"
+			(at 137.16 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut.kicad_sch"
+			(at 137.16 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DUT_UART_RX" input
+			(at 137.16 66.04 180)
+			(uuid "697125ce-83d8-4b16-9d12-75412be2990a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_BOOT" input
+			(at 137.16 73.66 180)
+			(uuid "1e347afd-9dfb-4f3f-890d-ff8cb8cba55c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_MCU_RESET" input
+			(at 137.16 71.12 180)
+			(uuid "fadd8557-4553-4127-8c9d-8641c2431f92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_UART_TX" output
+			(at 137.16 68.58 180)
+			(uuid "0ebc0f84-40b8-4df0-8fbb-659ca7b4961c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDUT" input
+			(at 158.75 73.66 0)
+			(uuid "aa2093ad-6a86-4cf8-af96-adddbb3aba74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 83.82)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5513f2d-8c21-45a0-bcc9-1cfe6678624f")
+		(property "Sheetname" "DUT4"
+			(at 137.16 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut.kicad_sch"
+			(at 137.16 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DUT_UART_RX" input
+			(at 137.16 86.36 180)
+			(uuid "cc812765-87c1-477a-81d9-fb3357de1cf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_BOOT" input
+			(at 137.16 93.98 180)
+			(uuid "7c707e8c-c3b6-4e6d-8fb9-ab33a8627c2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_MCU_RESET" input
+			(at 137.16 91.44 180)
+			(uuid "72ec47ea-16ef-441c-b094-c8be35196753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_UART_TX" output
+			(at 137.16 88.9 180)
+			(uuid "1e9c3d4b-6799-4731-9068-9a3055c24484")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDUT" input
+			(at 158.75 93.98 0)
+			(uuid "bed970ec-a9ba-489f-a562-90d3a9fdb516")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 43.18)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0c59110-05c3-455f-b06b-bdc22cf8abf6")
+		(property "Sheetname" "DUT2"
+			(at 137.16 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut.kicad_sch"
+			(at 137.16 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DUT_UART_RX" input
+			(at 137.16 45.72 180)
+			(uuid "349f4645-f9fb-42a4-ac04-dd4ebd33a51d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_BOOT" input
+			(at 137.16 53.34 180)
+			(uuid "4ec5e9a4-e8f6-45fb-a7fe-1e6b350e4081")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_MCU_RESET" input
+			(at 137.16 50.8 180)
+			(uuid "d5a3e655-c719-4840-b703-4e27d9493c06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DUT_UART_TX" output
+			(at 137.16 48.26 180)
+			(uuid "3919b230-c96b-483d-8fc9-f27e54663a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDUT" input
+			(at 158.75 53.34 0)
+			(uuid "8878962e-dfe3-42d6-87b2-3a3c055c5522")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dut_hub"
+				(path "/abb98903-800a-4d73-b1c4-29507c00e956"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

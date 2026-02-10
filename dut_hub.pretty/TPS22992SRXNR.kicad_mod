@@ -1,0 +1,335 @@
+(footprint "TPS22992SRXNR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TPS22992SRXNR-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 2 -1.675 270)
+		(layer "F.SilkS")
+		(uuid "a1f3aa23-10f3-4259-8a45-16a7e7f1f194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS22992SRXNR"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e5616bfe-0c25-465f-8719-e44b77e78026")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22992.pdf?ts=1729567087888&ref_url=https%253A%252F%252Fwww.mouser.sg%252F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f9d50a2-adef-422b-ac1a-1deb4d4a6dd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Switch ICs - Power Distribution 5.5-V, 6-A, 8.7-m load switch with adjustable rise time and adjustable quick output discha 8-WQFN-HR -40 to 125"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ae258be-a968-4527-8615-7a9eb8aaaa77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8bc48a-aec8-497b-8811-5162dcc4ab6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS22992SRXNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f64787b9-81bd-4e78-ac99-75a9f26381d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22992SRXNR?qs=doiCPypUmgHG6zli7ZEMJw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a2a7c25-deeb-4746-a41a-69bb30baaf6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d68ad2fa-e057-477d-91e4-245cb9dce177")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS22992SRXNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "220bd1a7-033e-4ce9-853b-d9115552383f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.4)
+		(end -0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05fa0fca-9bab-4699-a5fd-209fb93f7d49")
+	)
+	(fp_line
+		(start -0.4 -1.4)
+		(end -0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30b1c6db-f55d-4b2a-9749-cfffc5860c70")
+	)
+	(fp_line
+		(start -0.4 -1.3)
+		(end -0.4 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b745a3-501a-4561-ad01-a5129b8acbc0")
+	)
+	(fp_arc
+		(start -0.4 -1.4)
+		(mid -0.35 -1.35)
+		(end -0.4 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccee7a60-2ce4-4a03-8ebb-7691340ede83")
+	)
+	(fp_arc
+		(start -0.4 -1.3)
+		(mid -0.45 -1.35)
+		(end -0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5dce9a2-1d76-44bc-ae43-280f8ecf169e")
+	)
+	(fp_arc
+		(start -0.4 -1.3)
+		(mid -0.45 -1.35)
+		(end -0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1ad6ecf-7db3-46ff-8f9a-ddab490d29aa")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2131dd27-0172-4cea-9aa3-813235713363")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e0b84f6-c24e-4845-a62f-43eab6c8ed62")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21720285-e47a-4c1d-8a76-9a9d38a4b135")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a99c14e-d9ed-448e-bb65-5787002511a1")
+	)
+	(fp_line
+		(start -0.625 -0.625)
+		(end -0.625 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7db262ca-f8e1-4065-88aa-24112d440f10")
+	)
+	(fp_line
+		(start -0.625 0.625)
+		(end 0.625 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bf66542-d80a-4afc-b73b-94ff39873b19")
+	)
+	(fp_line
+		(start 0.625 -0.625)
+		(end -0.625 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71c6b43b-c1b9-4bab-9c97-2f6a9e05827d")
+	)
+	(fp_line
+		(start 0.625 0.625)
+		(end 0.625 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec73641f-4ae1-4070-8b72-3588b3c5a95c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "a9d85e3c-72bd-4bac-a451-b79729375649")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ae58d96-792f-4b4f-b3c5-a35accc4ec93")
+	)
+	(pad "2" smd rect
+		(at -0.475 0 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66d68256-9a02-4188-8007-ad5940e5ef72")
+	)
+	(pad "3" smd rect
+		(at -0.4 0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c9caef93-f8ce-4999-86fa-0c8ab2fecfa6")
+	)
+	(pad "4" smd rect
+		(at 0 0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ad71b67-0f4e-4393-b7d2-fc83e5fce619")
+	)
+	(pad "5" smd rect
+		(at 0.4 0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d20fc99c-68e7-441e-9a2c-23ad4faa4247")
+	)
+	(pad "6" smd rect
+		(at 0.475 0 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f17d1d4e-b68b-4491-be37-0fc7228d01bd")
+	)
+	(pad "7" smd rect
+		(at 0.4 -0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78266a16-6111-48f5-8c6e-45e70b80131a")
+	)
+	(pad "8" smd rect
+		(at 0 -0.6)
+		(size 0.2 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df6fb1af-7bfb-4e99-b93c-c1e6a3c45c86")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/TPS22992SRXNR.stp"
+		(offset
+			(xyz 0 0 0.7999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

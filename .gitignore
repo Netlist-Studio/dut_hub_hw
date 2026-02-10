@@ -1,0 +1,24 @@
+# KiCad backup files
+*-backups/
+*.bak
+*~
+
+# KiCad local settings (user-specific)
+*.kicad_prl
+
+# KiCad cache files
+fp-info-cache
+
+# Temporary/lock files
+*.lck
+.~lock.*
+*.xdp-*
+
+# Log files
+*.log
+
+# Datasheets (large PDFs, track separately or download as needed)
+datasheet/
+
+# Miscellaneous
+*.png
